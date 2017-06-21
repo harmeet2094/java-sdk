@@ -65,7 +65,7 @@ public class ListWorkspacesOptions extends GenericModel {
      * @param pageLimit the pageLimit
      * @return the ListWorkspacesOptions builder
      */
-    public Builder pageLimit(Long pageLimit) {
+    public Builder pageLimit(long pageLimit) {
       this.pageLimit = pageLimit;
       return this;
     }

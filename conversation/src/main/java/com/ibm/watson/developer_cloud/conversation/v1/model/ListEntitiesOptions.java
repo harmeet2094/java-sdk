@@ -109,7 +109,7 @@ public class ListEntitiesOptions extends GenericModel {
      * @param pageLimit the pageLimit
      * @return the ListEntitiesOptions builder
      */
-    public Builder pageLimit(Long pageLimit) {
+    public Builder pageLimit(long pageLimit) {
       this.pageLimit = pageLimit;
       return this;
     }

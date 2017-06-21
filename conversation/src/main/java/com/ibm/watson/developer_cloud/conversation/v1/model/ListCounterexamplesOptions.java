@@ -90,7 +90,7 @@ public class ListCounterexamplesOptions extends GenericModel {
      * @param pageLimit the pageLimit
      * @return the ListCounterexamplesOptions builder
      */
-    public Builder pageLimit(Long pageLimit) {
+    public Builder pageLimit(long pageLimit) {
       this.pageLimit = pageLimit;
       return this;
     }

@@ -107,7 +107,7 @@ public class ListExamplesOptions extends GenericModel {
      * @param pageLimit the pageLimit
      * @return the ListExamplesOptions builder
      */
-    public Builder pageLimit(Long pageLimit) {
+    public Builder pageLimit(long pageLimit) {
       this.pageLimit = pageLimit;
       return this;
     }

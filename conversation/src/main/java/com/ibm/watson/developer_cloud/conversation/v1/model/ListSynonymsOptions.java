@@ -124,7 +124,7 @@ public class ListSynonymsOptions extends GenericModel {
      * @param pageLimit the pageLimit
      * @return the ListSynonymsOptions builder
      */
-    public Builder pageLimit(Long pageLimit) {
+    public Builder pageLimit(long pageLimit) {
       this.pageLimit = pageLimit;
       return this;
     }

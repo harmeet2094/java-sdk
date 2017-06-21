@@ -126,7 +126,7 @@ public class ListValuesOptions extends GenericModel {
      * @param pageLimit the pageLimit
      * @return the ListValuesOptions builder
      */
-    public Builder pageLimit(Long pageLimit) {
+    public Builder pageLimit(long pageLimit) {
       this.pageLimit = pageLimit;
       return this;
     }

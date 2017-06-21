@@ -109,7 +109,7 @@ public class ListIntentsOptions extends GenericModel {
      * @param pageLimit the pageLimit
      * @return the ListIntentsOptions builder
      */
-    public Builder pageLimit(Long pageLimit) {
+    public Builder pageLimit(long pageLimit) {
       this.pageLimit = pageLimit;
       return this;
     }
