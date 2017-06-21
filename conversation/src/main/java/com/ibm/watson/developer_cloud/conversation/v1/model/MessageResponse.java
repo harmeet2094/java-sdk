@@ -32,7 +32,7 @@ public class MessageResponse extends GenericModel {
   @SerializedName("alternate_intents")
   private Boolean alternateIntents;
   /** State information for the conversation. */
-  private RuntimeContext context;
+  private Context context;
   /** Output from the dialog, including the response to the user, the nodes that were triggered, and log messages. */
   private RuntimeOutput output;
 
@@ -77,7 +77,7 @@ public class MessageResponse extends GenericModel {
    *
    * @return the context
    */
-  public RuntimeContext getContext() {
+  public Context getContext() {
     return context;
   }
 
@@ -131,7 +131,7 @@ public class MessageResponse extends GenericModel {
    *
    * @param context the new context
    */
-  public void setContext(final RuntimeContext context) {
+  public void setContext(final Context context) {
     this.context = context;
   }
 
