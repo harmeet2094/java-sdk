@@ -12,11 +12,10 @@
  */
 package com.ibm.watson.developer_cloud.conversation.v1.model;
 
-import com.ibm.watson.developer_cloud.service.model.GenericModel;
+import java.util.HashMap;
 
 /**
  * An object describing a dialog node.
  */
-public class DialogNode extends GenericModel {
-
+public class DialogNode extends HashMap<String, Object> {
 }
